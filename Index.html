@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC Learning Center</title>
+    <link rel="stylesheet" href="CSS/Homepage.css" />
+    <link rel="stylesheet" href="CSS/Header&Footer.css" />
+    <script src="Script/jquery-3.6.1.min.js"></script>
+    <script src="Script/Overall.js"></script>
+  </head>
+  <body>
+    <!--This is header Section-->
+    <header>
+      <img src="Images/remove abc.png" alt="logo" height="60px" />
+      <h3>ABC Learning Center</h3>
+      <nav class="navbar">
+        <ul class="nav__links">
+          <li><a href="Homepage.html" target="_blank" id="Home">Home</a></li>
+          <li><a href="About_Us.html" target="_blank" id="About">About Us</a></li>
+          <li><a id="Course" href="Listing_Page.html">Course</a></li>
+          <li><a href="Contact_Us.html" target="_blank" id="Contact">Contact Us</a></li>
+          <li><a href="registration.html" target="_blank" id="Register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--This is Hero section-->
+    <section class="Content_Container">
+      <article>
+        <div class="Container" style="display: block">
+          <h1 class="Slogan">
+            TEACH <span>DIGITAL</span> SKILLS &<br />CODING ALL IN ONE<br />
+            FOR EVERYONE
+          </h1>
+          <button id="Start">Get Started</button>
+        </div>
+        <div class="Description">
+          <img src="Images/Coding wall.jpg" alt="" />
+          <img src="Images/Coding wallpaper.jpg" alt="" style="margin-top: 150px" />
+          <img src="Images/coding wallpaper 3.jpg" alt="" />
+        </div>
+      </article>
+    </section>
+
+    <div class="Partner-Container">
+      <p id="Partner">Our Partner :</p>
+      <div class="Our-Partner">
+        <img src="Images/Amazon logo.png" alt="Amazon" />
+        <img src="Images/Google logo.png" alt="Google" />
+        <img src="Images/icons8-ibm-48.png" alt="IBM" />
+        <img src="Images/Negative_Space_Logo-removebg-preview.png" alt="Space" />
+      </div>
+    </div>
+
+    <!--This is Achievment Section-->
+    <section>
+      <article class="Achievment">
+        <div class="Achievment_Container">
+          <div class="Achievment_Logo">
+            <img src="Images/School_free_vector_icons_designed_by_Smashicons-removebg-preview.png" alt="" />
+            <p>170+</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quo minus veritatis</p>
+          </div>
+        </div>
+        <div class="Achievment_Container">
+          <div class="Achievment_Logo">
+            <img src="Images/toga-removebg-preview.png" alt="" />
+            <p>1200+</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quo minus veritatis</p>
+          </div>
+        </div>
+        <div class="Achievment_Container">
+          <div class="Achievment_Logo">
+            <img src="Images/Enter_university_line_icon_concept_vector_image_on_VectorStock-removebg-preview.png" alt="" />
+            <p>9+</p>
+          </div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda ipsa quo minus veritatis</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <!--This is Footer Section-->
+
+    <footer style="margin-top: 0px">
+      <article>
+        <h2 class="Sub_Title">ABC Learning Center</h2>
+        <p class="Privacy">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatem nulla dolorem, aperiam veritatis aliquid distinctio quis. <br />
+          Magnam quam numquam nesciunt adipisci esse voluptas, eaque
+        </p>
+
+        <div class="Foot">
+          <a href="Privacy_Policy.html" id="Privacy">Privacy Policy</a> |
+          <a href="Sitemap.html" id="Sitemap">Sitemap</a>
+        </div>
+      </article>
+
+      <div class="Footer-Img">
+        <img src="Images/facebook remove.png" />
+        <img src="Images/Instagram remove.png" alt="" />
+        <img src="Images/twitter.png" alt="" />
+        <img src="Images/Linkedin Logo Download Vector.png" alt="" />
+        <img src="Images/whatsapp.png" alt="" />
+      </div>
+
+      <div class="Copyright">
+        <p>Copyright &copy; 2022 ABC Learning Center</p>
+      </div>
+    </footer>
+
+    <script>
+      $("nav li").hover(
+        function () {
+          $("ul", this).stop().slideDown(200);
+        },
+        function () {
+          $("ul", this).stop().slideUp(200);
+        }
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+
+/*This is Images Section*/
+.Content_Container .Image_Container img{
+    width: 300px;
+    margin: 10px;    
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border-radius: 5px;
+
+}
+
+.Image_Container{
+    display: flex;
+    margin: 20px 40px 40px 200px;
+    
+}
+
+
+/*This is Our Story Section*/  
+.Our_Team p,.About_Us p{
+    padding: 10px 250px;
+    text-align: center;
+}
+
+.Team_Container{
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 40px;
+  
+}
+
+.Team_Container div{
+    
+    width: 400px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    max-height: 500px;
+    line-height: 20px;
+
+ 
+}
+
+.Team_Container img{
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    
+}
+
+.Team_Container h5{
+    color: blue;
+    
+}
+
+.Team_1,.Team_2,.Team_3{
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    margin: 20px;
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;  
+    
+}
+
+h1,h2,h3,h4,h5{
+    font-family:'Oswald',sans-serif;
+    color: #0D5C63;
+}
+
+P{
+    font-family:'Noto Serif',serif;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    background-color: #fffffa;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 5%;
+    border:1px solid #85C7DE;
+    background:#44A1A0;
+    border-radius: 5px;
+}
+
+header{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin-top: 0;
+}
+
+
+header h3{
+  color:  #fffffa;
+  font-size: 20px;
+  font-weight: bold;
+ 
+}
+
+header p{
+    color: #fffffa;
+}
+
+li, a, button{
+    font-family: "Noto Serif",serif;
+    font-weight: 700;
+    font-size: 13px;
+    color: #fffffa;
+    text-decoration: none;
+
+}
+
+
+.logo,h3{
+    margin-left: 20px;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.navbar ul li ul,.navbar ul li ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #44a19fda;   
+    margin-top: 10px;
+}
+
+
+
+.navbar ul li ul li,.navbar ul li ul li ul{
+    display: block;
+    
+}
+
+
+.nav__links li ul li{
+  padding: 0;
+  margin: 10px 10px 20px 10px;
+}
+
+.nav__links li ul{
+    right: 170px;
+   
+}
+.navbar ul li ul li ul{
+    right: -61px;
+    top: -10px;
+}
+
+
+button{
+    padding: 9px 20px;
+    background-color: #247b7b;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+   
+}
+
+button:hover{
+    background-color:#85C7DE;
+}
+
+
+/*This is Content section*/
+
+
+/*This iS Footer*/
+footer{
+    margin-top: 100px;
+    padding: 20px 0 0 0 ;
+    background-color: rgba(0, 0, 0, 0.897);
+    text-align: center;
+
+}
+
+.Privacy{
+    padding: 40px 170px;
+    text-align: center;
+}
+
+footer .Sub_Title,footer .Privacy,.Foot a{
+    color: #fff;
+}
+
+.Sub_Title{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.Content_Container{
+    margin-top: 110px;
+}
+
+
+.Footer-Img img{
+    height: 40px;
+    width: 40px;
+    margin: 50px 40px;
+
+}
+
+.Foot{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 21px;
+}
+
+.Copyright{
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 2px;
+    
+}
+
+.Foot a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+

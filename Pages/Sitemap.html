@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sitemap</title>
+    <link rel="stylesheet" href="CSS/Header&Footer.css" />
+    <link rel="stylesheet" href="CSS/Sitemap.css" />
+    <script src="/Script/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <!--This is header Section-->
+    <header>
+      <img src="Images/remove abc.png" alt="logo" height="60px" />
+      <h3>ABC Learning Center</h3>
+      <nav class="navbar">
+        <ul class="nav__links">
+          <li><a href="Homepage.html" target="_blank" id="Home">Home</a></li>
+          <li><a href="About_Us.html" target="_blank" id="About">About Us</a></li>
+          <li><a id="Course" href="Listing_Page.html">Course</a></li>
+          <li><a href="Contact_Us.html" target="_blank" id="Contact">Contact Us</a></li>
+          <li><a href="registration.html" target="_blank" id="Register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="Content_Container">
+      <article>
+        <h2 class="Sub_Title">Sitemap</h2>
+        <div class="sitemap_container">
+          <div class="container">
+            <h2>Home</h2>
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="About_Us.html">About</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Privacy_Policy.html">Privacy Policy</a></li>
+            <li><a href="Sitemap.html">Sitemap</a></li>
+          </div>
+          <div class="container">
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="About_Us.html">About</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Privacy_Policy.html">Privacy Policy</a></li>
+            <li><a href="Sitemap.html">Sitemap</a></li>
+          </div>
+          <div class="container">
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="About_Us.html">About</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Privacy_Policy.html">Privacy Policy</a></li>
+            <li><a href="Sitemap.html">Sitemap</a></li>
+          </div>
+          <div class="container">
+            <li><a href="Homepage.html">Home</a></li>
+            <li><a href="About_Us.html">About</a></li>
+            <li><a href="Contact_Us.html">Contact Us</a></li>
+            <li><a href="Privacy_Policy.html">Privacy Policy</a></li>
+            <li><a href="Sitemap.html">Sitemap</a></li>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <article>
+        <h2 class="Sub_Title">ABC Learning Center</h2>
+        <p class="Privacy">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatem nulla dolorem, aperiam veritatis aliquid distinctio quis. <br />
+          Magnam quam numquam nesciunt adipisci esse voluptas, eaque
+        </p>
+
+        <div class="Foot">
+          <a href="Privacy_Policy.html" id="Privacy">Privacy Policy</a> |
+          <a href="Sitemap.html" id="Sitemap">Sitemap</a>
+        </div>
+      </article>
+
+      <div class="Footer-Img">
+        <img src="Images/facebook remove.png" />
+        <img src="Images/Instagram remove.png" alt="" />
+        <img src="Images/twitter.png" alt="" />
+        <img src="Images/Linkedin Logo Download Vector.png" alt="" />
+        <img src="Images/whatsapp.png" alt="" />
+      </div>
+
+      <div class="Copyright">
+        <p>Copyright &copy; 2022 ABC Learning Center</p>
+      </div>
+    </footer>
+
+    <script>
+      $("nav li").hover(
+        function () {
+          $("ul", this).stop().slideDown(200);
+        },
+        function () {
+          $("ul", this).stop().slideUp(200);
+        }
+      );
+    </script>
+    <script src="Script/Overall.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+p{
+  font-size: 14px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+
+
+/* Course Description */
+
+span{
+  text-align: center;
+  margin-left: 250px;
+  color:  #0D5C63;
+}
+
+.Content_Container{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.Course_Desc{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 15px;  
+  box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.Course_Desc img{
+  width: 400px;
+  height: 300px;
+  border-radius: 15px 0px 0px 15px;
+  box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+
+.Course_Java{
+  display: block;
+  margin: 50px 40px 40px 40px; 
+}
+
+/* Schedule */
+#tab nav{
+  display: flex;
+}
+
+#tab nav a{
+  margin: 2px;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+  box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+
+}
+
+#tab nav .active{
+  background:  #44a19fda;
+  color: white;
+}
+
+.tab-content{
+  display: none;
+  box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  padding: 1rem;
+  padding-left: 50px;
+}
+
+.tab-content.active{
+  display: block;
+}

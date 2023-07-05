@@ -1,0 +1,85 @@
+
+/*This is all color you can use*/
+
+/*#CFE8EF - Azureish White
+  #C6DBF0 - Columbia blue
+  #AED1E6 - Light blue
+  #A0C4E2 - Pale Cerulean
+  #85C7DE - Dark sky blue
+  
+  */
+
+  /* container section */
+  .Course_Desc{
+    display: flex;
+    width: 97%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 15px;  
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+ 
+}
+
+
+.Course_Desc img{
+    width: 400px;
+    height: 300px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+
+.Course_Java{
+    display: block;
+    margin: 50px 40px 40px 40px;
+    
+    
+}
+
+  .Course_Desc .img{
+    width: 400px;
+    height: 300px;
+    border-radius: 0 15px 15px 0;
+    background: linear-gradient(212.38deg,#44a19f98 0%, #0d5c6367 100%),url(../Images/Coding\ wall.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .HTML .Course_Desc img{
+    width: 400px;
+    height: 300px;
+    border-radius: 0 15px 15px 0;
+    background-size: cover;
+    background-position: center;
+  }
+  .java .Course_Desc img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px 0 0 15px;
+    background-size: cover;
+    background-position: center;
+  }
+/* BUTTON */
+.btn-pos{
+  display: flex;
+  margin-top: 20px;
+  
+  }
+  
+  .Course_Desc button{
+      cursor: pointer;
+      border: none;
+      padding: 7px 30px;
+      border-radius: 8px;
+      display: block;
+      margin-left: 20px;
+      margin-top: 5px;
+      margin-bottom: 20px;
+      background: rgb(37, 104, 93) ;
+      color: white;
+      font-weight: bold;
+      box-shadow: 0 9px 15px -11px rgb(37, 104, 93);
+  
+  
+  }

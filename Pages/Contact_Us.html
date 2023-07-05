@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/Header&Footer.css" />
+    <link rel="stylesheet" href="CSS/Contact_Us.css" />
+    <script src="Script/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <!--This is header Section-->
+    <header>
+      <img src="Images/remove abc.png" alt="logo" height="60px" />
+      <h3>ABC Learning Center</h3>
+      <nav class="navbar">
+        <ul class="nav__links">
+          <li><a href="Homepage.html" target="_blank" id="Home">Home</a></li>
+          <li><a href="About_Us.html" target="_blank" id="About">About Us</a></li>
+          <li><a id="Course" href="Listing_Page.html">Course</a></li>
+          <li><a href="Contact_Us.html" target="_blank" id="Contact">Contact Us</a></li>
+          <li><a href="registration.html" target="_blank" id="Register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Contact and address section-->
+
+    <section class="Content_Container">
+      <article>
+        <h2 class="Sub_Title">Contact Us</h2>
+        <div class="Contact_Container">
+          <div class="Address">
+            <div>
+              <h2>Address</h2>
+              <p>
+                Kp. Cijolang RT.03 RW.07 <br />
+                7th floor, Bandung <br />
+                Jakarta 03131
+              </p>
+            </div>
+            <div class="Contact">
+              <div class="Number">
+                <img src="Images/icons8-phone-48.png" alt="" />
+                <p>
+                  +62-857-xxx-xxx <br />
+                  +62-857-xxx-xxx
+                </p>
+              </div>
+              <div class="Email">
+                <img src="Images/icons8-email-64.png" alt="" />
+                <p>abclearn@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <img src="Images/Google Maps Logo PNG Vector (CDR) Free Download.png" alt="Location" class="Location" />
+        </div>
+      </article>
+    </section>
+
+    <!--Form Section-->
+    <section class="Form">
+      <div>
+        <form action="input">
+          <input type="text" id="Nama" name="Nama" placeholder=" Nama :" /><span></span> <input type="text" id="Company" name="Company" placeholder=" Company :" /><br />
+          <input type="text" id="Email" name="Email" placeholder=" Email : " /><span></span>
+          <input type="text" id="Phone" name="Phone" placeholder=" Phone :" />
+        </form>
+        <textarea type="text" id="Message" name="Message" placeholder=" Message :"></textarea>
+        <button class="Send">Send Message</button>
+      </div>
+      <map name="Map Company">
+        <img src="Images/1664545473388.jpg" alt="" />
+      </map>
+    </section>
+
+    <footer>
+      <article>
+        <h2 class="Sub_Title">ABC Learning Center</h2>
+        <p class="Privacy">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatem nulla dolorem, aperiam veritatis aliquid distinctio quis. <br />
+          Magnam quam numquam nesciunt adipisci esse voluptas, eaque
+        </p>
+
+        <div class="Foot">
+          <a href="Privacy_Policy.html" id="Privacy">Privacy Policy</a> |
+          <a href="Sitemap.html" id="Sitemap">Sitemap</a>
+        </div>
+      </article>
+
+      <div class="Footer-Img">
+        <img src="Images/facebook remove.png" />
+        <img src="Images/Instagram remove.png" alt="" />
+        <img src="Images/twitter.png" alt="" />
+        <img src="Images/Linkedin Logo Download Vector.png" alt="" />
+        <img src="Images/whatsapp.png" alt="" />
+      </div>
+      <div class="Copyright">
+        <p>Copyright &copy; 2022 ABC Learning Center</p>
+      </div>
+    </footer>
+    <script>
+      $("nav li").hover(
+        function () {
+          $("ul", this).stop().slideDown(200);
+        },
+        function () {
+          $("ul", this).stop().slideUp(200);
+        }
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+}
+
+P {
+  font-family: "Noto Serif", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fffffa;
+}
+
+td button {
+  cursor: pointer;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  border-radius: 3px;
+  height: auto;
+  width: 50px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+#Admin {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(37, 104, 93);
+  padding-top: 50px;
+  color: #f2f2f2;
+  margin-bottom: 20px;
+}
+.Data {
+  border-collapse: collapse;
+  margin-right: 30px;
+  margin-left: 5px;
+  width: 90%;
+}
+
+#data td,
+.Data th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.Data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.Data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0d5c63;
+  color: white;
+}
+
+.data_container {
+  display: flex;
+}
+
+.table_container {
+  width: 900px;
+}
+
+.table_container h1 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+/* New Data Form */
+.editable .new_data,
+.editable .edit_data {
+  margin-top: 32px;
+  margin-bottom: 10px;
+  height: 350px;
+  width: 450px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.editable .edit_data {
+  display: none;
+}
+
+.form {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.form input {
+  width: 200px;
+  height: 20px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+}
+
+.editable h3 {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 30px;
+  width: 437px;
+  border-bottom: 1px solid rgb(37, 104, 93);
+}
+
+.form p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.btn-pos {
+  display: flex;
+}
+
+.sub,
+.finish {
+  cursor: pointer;
+  border: none;
+  padding: 7px 30px;
+  border-radius: 8px;
+  display: block;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  background: rgb(37, 104, 93);
+  color: white;
+  font-weight: bold;
+  box-shadow: 0 9px 15px -11px rgb(37, 104, 93);
+}
+iframe {
+  display: none;
+}
+.first_eror,
+.last_eror,
+.course_eror,
+.email_eror {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 13px;
+  margin-left: 25px;
+}

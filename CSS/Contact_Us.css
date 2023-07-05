@@ -1,0 +1,100 @@
+ /*This is address and contact section*/
+.Address{
+    display: flex;
+    
+}
+
+.Address h2{
+    margin-bottom: 20px;
+}
+.Address p{
+    line-height: 20px;
+}
+
+.Contact{
+    margin-left: 200px;
+    margin-top: 40px;    
+}
+
+.Contact .Email,.Number{
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.Contact p{
+    margin:1px 20px;
+}
+
+
+.Contact_Container{
+    border: 1px solid black;
+    margin: 20px 200px;
+    padding: 50px;
+    display: flex;
+}
+
+.Contact img{
+    width: 20px;
+    height: 20px;
+}
+
+.Location{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+
+/*This is Form Section*/
+
+.Form{
+    display: flex;
+    margin-left: 200px;
+}
+
+
+form input{
+    border-radius: 5px;
+    margin-top: 20px;  
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+}
+
+
+
+span{
+    margin-left: 20px;
+}
+
+textarea {
+    padding: 5px;
+}
+
+#Message{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 525px;
+    height: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.288);
+    border-radius: 5px;
+
+}
+
+map img{
+    margin: 20px 0 0 25px;
+    height: 489px;
+    width: 395px;
+    border: 1px solid black;
+}
+
+.Send{
+    display: block;
+    margin-top: 20px;
+    height: 45px;
+    width: 150px;
+}
+.Button_Container{
+    width: 500px;
+   
+}
+

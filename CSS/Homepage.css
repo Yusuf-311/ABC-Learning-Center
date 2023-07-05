@@ -1,0 +1,125 @@
+
+/*This is all color you can use*/
+
+/*#CFE8EF - Azureish White
+  #C6DBF0 - Columbia blue
+  #AED1E6 - Light blue
+  #A0C4E2 - Pale Cerulean
+  #85C7DE - Dark sky blue
+  
+  */
+
+
+
+
+ 
+
+  /*This is Hero Section*/
+
+.Slogan{
+    width: 500px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 6% 0 0 7%;
+    line-height: 70px;
+  }
+
+  .Container span{
+    color: rgba(59, 154, 192, 0.644) ;
+  }
+
+
+
+
+#Partner{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.267);
+    margin: 0 40px 0 7%;
+    padding-top: 40px;
+}
+
+#Start{
+    margin: 10% 0 0 7%;
+    padding: 13px 40px;
+}
+
+
+.Content_Container article {
+    display: flex;
+    margin: 0% 0 0 7%;
+    
+}
+
+.Container{
+    display: block;
+    
+}
+
+.Description{
+    margin-left: 10%;
+}
+
+.Description img{
+   height: 300px;
+   width: 150px;
+   margin-left: 30px;
+   float: left; 
+   margin-top: 10px;
+   box-shadow: rgba(50,50,93,0.25) 0px 2px 5px -1px,rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.Partner-Container{
+    display: flex;
+    margin: 0 0 0 3%;
+}
+
+.Our-Partner{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.Our-Partner img{
+
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+    margin-top: 0px;
+
+
+}
+
+
+/*This is Achievment*/
+.Achievment{
+    display: flex;
+   
+}
+
+.Achievment_Container{
+    border: 1px solid rgba(128, 128, 128, 0.397);
+    padding: 40px;
+}
+
+
+.Achievment .Achievment_Logo{
+    display: flex;
+    margin-bottom: 20px;
+    font-weight: bold
+}
+
+.Achievment img{
+    width: 50px;
+    height: 50px;
+}
+
+.Achievment_Logo p{
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+footer{
+    margin-top: 1px;
+}

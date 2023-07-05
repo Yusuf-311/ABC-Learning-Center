@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Oswald", sans-serif;
+}
+
+P {
+  font-family: "Noto Serif", serif;
+  font-size: 12px;
+}
+/* Container */
+.container {
+  width: 100%;
+  height: 650px;
+  background-color: aquamarine;
+}
+
+.green_side {
+  width: 100%;
+  height: 60%;
+  background-color: #519199;
+}
+
+.thankyou {
+  position: absolute;
+  top: 90px;
+  left: 350px;
+  text-align: center;
+  color: #fff;
+}
+
+.green_side img {
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.white_side {
+  width: 100%;
+  height: 40%;
+  background-color: whitesmoke;
+}
+
+.go {
+  display: flex;
+  position: absolute;
+  width: 65%;
+  height: 90px;
+  top: 53%;
+  right: 19%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 9px 15px -11px rgba(88, 54, 114, 1);
+}
+.go p {
+  margin: auto;
+  margin-left: 30px;
+}
+.go button {
+  position: absolute;
+  right: 40px;
+  border: none;
+  padding: 15px 70px;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background: rgb(37, 104, 93);
+  color: #fff;
+  font-weight: bold;
+  box-shadow: 0 9px 15px -11px rgba(88, 54, 114, 1);
+  cursor: pointer;
+}
+
+.sosial {
+  display: flex;
+  position: absolute;
+  width: 400px;
+  height: 90px;
+  bottom: 50px;
+  right: 19%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 9px 15px -11px rgba(88, 54, 114, 1);
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}

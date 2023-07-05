@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Schedule</title>
+    <link rel="stylesheet" href="CSS/Header&Footer.css">
+    <link rel="stylesheet" href="CSS/Schedule.css">
+    <script src="Script/jquery-3.6.1.min.js"></script>
+
+</head>
+<body>
+         <!--This is header Section-->
+<header>
+      <img src="Images/remove abc.png" alt="logo" height="60px" />
+      <h3>ABC Learning Center</h3>
+      <nav class="navbar">
+        <ul class="nav__links">
+          <li><a href="Homepage.html" target="_blank" id="Home">Home</a></li>
+          <li><a href="About_Us.html" target="_blank" id="About">About Us</a></li>
+          <li><a id="Course" href="Listing_Page.html">Course</a></li>
+          <li><a href="Contact_Us.html" target="_blank" id="Contact">Contact Us</a></li>
+          <li><a href="registration.html" target="_blank" id="Register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
+
+
+    <section class="Content_Container">
+    <article>
+        <div class="Course_Desc"> 
+            <img src="Images/icons8-java-480.png" alt="">  
+            <div class="Course_Java">
+                
+            <span class="Sub_Title"> Java Programming Language Course</span> <br> <br>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit, iusto beatae laborum laudantium sint dolore quidem omnis recusandae doloribus corporis animi quaerat voluptatum distinctio! Ullam a cupiditate dolorum illum quaerat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus beatae neque nisi dicta at. Impedit repellat ex a molestiae alias vel, ducimus atque similique pariatur dolorum reiciendis suscipit doloribus beatae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis error voluptatum nobis neque necessitatibus inventore debitis, ab suscipit quasi magni perferendis nam eaque in ipsum alias quibusdam nostrum porro impedit.</p>
+            </div>            
+        </div>
+
+        <h4>Schedule Course</h4>
+        <div id="tab"><br>
+            <nav>
+                <a href="#" class="active" data-id="1">Morning Course</a></li>
+                <a href="#" data-id="2">Night Course</a></li>
+                <a href="#" data-id="3">Weekend Course</a></li>
+            </nav>
+            <div class="tab-content active" data-content="1">
+                <h4>Full Stack Java Developer <br> Batch January 2022</h4>
+                <br>
+                <h5>Start date :</h5>
+                <p>January 2023</p>
+                <br>
+                <h5>Class Schedule</h5>
+                <p>Mon-Friday (7-5 AM) & (Optional) Sat-Sun (7-5 AM) </p>
+                </div>
+            <div class="tab-content" data-content="2">
+                <h4>Full Stack Java Developer <br> Batch January 2022</h4>
+                <br>
+                <h5>Start date :</h5>
+                <p>January 2023</p>
+                <br>
+                <h5>Class Schedule</h5>
+                <p>Mon-Friday (7-10 PM) & (Optional) Sat-Sun (7-5 AM) </p>
+             </div>
+            <div class="tab-content" data-content="3">
+                <h4>Full Stack Java Developer <br> Batch January 2022</h4>
+                <br>
+                <h5>Start date :</h5>
+                <p>January 2023</p>
+                <br>
+                <h5>Class Schedule</h5>
+                <p>Mon-Friday (Flexible) & (Optional) Sat-Sun (7-5 AM) </p>
+            </div>
+    
+        </div>
+        
+    </article>
+    </section>
+    
+    <footer>
+        <article>
+            <h2 class="Sub_Title">ABC Learning Center</h2>
+            <p class="Privacy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit voluptatem nulla dolorem, aperiam veritatis aliquid distinctio quis. <br> Magnam quam numquam nesciunt adipisci esse voluptas, eaque </p>
+
+            <div class="Foot">
+                <a href="Privacy_Policy.html" id="Privacy">Privacy Policy</a> |
+                <a href="Sitemap.html" id="Sitemap">Sitemap</a>
+                </div>
+        </article>
+
+       <div class="Footer-Img">
+            <img src="Images/facebook remove.png">
+            <img src="Images/Instagram remove.png" alt="">
+            <img src="Images/twitter.png" alt="">
+            <img src="Images/Linkedin Logo Download Vector.png" alt="">
+            <img src="Images/whatsapp.png" alt="">
+        </div>
+        
+        <div class="Copyright">
+            <p>Copyright &copy; 2022 ABC Learning Center</p>
+        </div>
+
+    </footer>
+    <script>
+
+        // Navbar Dropdown
+        $('nav li').hover(function() {
+            $('ul', this).stop().slideDown(200);
+        },
+            function() {
+            $('ul', this).stop().slideUp(200);
+        });
+
+        // Tabs
+        $("#tab nav a").click(function(){
+            const id = $(this).data('id');
+            if(!$(this).hasClass('active')){
+                $("#tab nav a").removeClass('active');
+                $(this).addClass('active');
+
+                $('.tab-content').hide();
+                $(`[data-content=${ id }]`).fadeIn();
+            }
+        });
+        </script>
+
+        <script src="/Script/Overall.js"></script>
+    
+
+    
+</body>
+</html>

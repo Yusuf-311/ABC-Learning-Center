@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead generation form </title>
+    <link rel="stylesheet" href="CSS/registration.css">
+    <script src="Script/jquery-3.6.1.min.js"></script>
+</head>
+<body>
+    <section class="login">
+        <div class="login_box">
+            <div class="left">
+                <div class="top_link">
+                    <img src="Images/remove abc.png" alt="ABC Learning Center Logo "><p>ABC LEARNING CENTER </p>
+                </div>
+                <div class="contact">                   
+                    <form  role="form" id="form">
+                        <h3>Register</h3>
+                        <input type="text" name="first" class ="first_new" placeholder="First Name" required><br>
+                        <div class="first_eror">please enter your first name !</div>
+                        <input type="text" name="last" class ="last_new" placeholder="Last Name" required><br>
+                        <div class="last_eror">please enter your last name !</div>
+                        <input type="text" name="course" class ="course_new" placeholder="Course" required><br>
+                        <div class="course_eror">please enter your course name !</div>
+                        <input type="email" name="email" class ="email_new" placeholder="Email" required><br>
+                        <div class="email_eror">please enter your email address !</div>
+                        <button type="submit" class="sub"onclick="addData()">Submit</a></button>
+                        </div>
+            </div>
+            <div class="right">
+                <div class="right_text">
+                <h2>ABC LEARNING CENTER</h2>
+                <br>
+                <h5>START YOUR CODING JOURNEY WITH US</h5>
+             </div>
+            </div>
+        </div>
+    </section>
+    <script src="Script/admin.js"></script>
+    <script>
+        $(".first_eror").hide();
+        $(".last_eror").hide();
+        $(".course_eror").hide();
+        $(".email_eror").hide();
+    </script>
+   
+</body>
+</html>

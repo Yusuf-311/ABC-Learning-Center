@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin page</title>
+    <link rel="stylesheet" href="CSS/admin.css" />
+    <script src="Script/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <div id="Admin">
+      <h2>ABC LEARNING CENTER - ADMIN</h2>
+      <br />
+      <h4>Welcome Admin Have a nice day</h4>
+    </div>
+    <div class="data_container">
+      <div class="table_container">
+        <h1>STUDENT DATA</h1>
+        <table class="Data">
+          <tr>
+            <th width="30px">No</th>
+            <th width="140px">First Name</th>
+            <th width="140px">Last Name</th>
+            <th width="100px">Course</th>
+            <th width="250px">Email</th>
+            <th width="110px">Action</th>
+          </tr>
+        </table>
+        <div id="data"></div>
+      </div>
+
+      <div class="editable">
+        <div class="edit_data">
+          <h3>Edit Data</h3>
+          <form role="form" class="form">
+            <p>Edit Form</p>
+            <br />
+            <input type="text" name="first" class="first_edit" placeholder="First Name" required oninvalid="this.setCustomValidity('Ini Harus di isi')" /><br />
+
+            <input type="text" name="last" class="last_edit" placeholder="Last Name" required /><br />
+
+            <input type="text" name="course" class="course_edit" placeholder="Course" required /><br />
+
+            <input type="email" name="email" class="email_edit" placeholder="Email" required /><br />
+
+            <div class="btn-pos">
+              <button type="submit" class="submit" onclick="change()">Submit</button>
+              <button type="submit" class="finish">Finish</button>
+            </div>
+          </form>
+        </div>
+        <div class="new_data">
+          <h3>Create New Data</h3>
+          <form role="form" class="form">
+            <p>Add New Form</p>
+            <br />
+            <input type="text" name="first" class ="first_new" placeholder="First Name" required><br>
+                        <div class="first_eror">please enter your first name !</div>
+                        <input type="text" name="last" class ="last_new" placeholder="Last Name" required><br>
+                        <div class="last_eror">please enter your last name !</div>
+                        <input type="text" name="course" class ="course_new" placeholder="Course" required><br>
+                        <div class="course_eror">please enter your course name !</div>
+                        <input type="email" name="email" class ="email_new" placeholder="Email" required><br>
+                        <div class="email_eror">please enter your email address !</div>
+                        <button type="submit" class="sub"onclick="addData()">Submit</a></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <form target="frame"></form>
+    <iframe name="frame"></iframe>
+    <!-- <script src="registration.js"></script>
+     -->
+    <script src="Script/admin.js"></script>
+    <script>
+        $(".first_eror").hide();
+        $(".last_eror").hide();
+        $(".course_eror").hide();
+        $(".email_eror").hide();
+    </script>
+  </body>
+</html>
